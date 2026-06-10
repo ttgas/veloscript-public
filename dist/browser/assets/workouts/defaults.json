@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Base - Quema Grasas (Z2)",
+    "description": "Sesión aeróbica constante para mejorar la eficiencia metabólica.",
+    "segments": [
+      { "wattsStart":0.55, "wattsEnd":0.75, "durationMinutes": 10 },
+      { "wattsStart":0.75, "wattsEnd":0.75, "durationMinutes": 40 },
+      { "wattsStart":0.75, "wattsEnd":0.55, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Intervalos VO2 Max (5x3')",
+    "description": "Mejora tu consumo máximo de oxígeno con intervalos cortos de alta intensidad.",
+    "segments": [
+      { "wattsStart":0.55, "wattsEnd":0.75, "durationMinutes": 15 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 3 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 3 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 3 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 3 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart":0.55, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "La Pirámide",
+    "description": "Escalera de potencia que pone a prueba tu resistencia muscular.",
+    "segments": [
+      { "wattsStart":0.55, "wattsEnd": 0.75, "durationMinutes": 10 },
+      { "wattsStart":0.9, "wattsEnd":0.9, "durationMinutes": 5 },
+      { "wattsStart":1.05, "wattsEnd":1.05, "durationMinutes": 4 },
+      { "wattsStart":1.05, "wattsEnd":1.05, "durationMinutes": 3 },
+      { "wattsStart":1.05, "wattsEnd":1.2, "durationMinutes": 2 },
+      { "wattsStart":1.05, "wattsEnd":1.05, "durationMinutes": 3 },
+      { "wattsStart":1.05, "wattsEnd":1.05, "durationMinutes": 4 },
+      { "wattsStart":0.9, "wattsEnd":0.9, "durationMinutes": 5 },
+      { "wattsStart":0.55, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Progresivo 40 min (Z1-Z5)",
+    "description": "Rampa progresiva desde calentamiento hasta zona de fatiga.",
+    "segments": [
+      { "wattsStart": 0.3125, "wattsEnd":1.2, "durationMinutes": 40 }
+    ]
+  },
+  {
+    "name": "Progresivo 40 min 50W-250W",
+    "description": "Mejora tu consumo máximo de oxígeno con intervalos cortos de alta intensidad.",
+    "segments": [
+      { "wattsStart": 50, "wattsEnd": 250, "durationMinutes": 40 }
+    ]
+  },
+  {
+    "name": "Intervals Activation",
+    "description": "Sesión de activación con intervalos crecientes y un bloque de estabilidad aeróbica.",
+    "segments": [
+      { "wattsStart": 0.375, "wattsEnd": 0.55, "durationMinutes": 4 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart":0.75, "wattsEnd":0.75, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 0.95, "wattsEnd": 0.95, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 1.5, "wattsEnd": 1.5, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 7 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 2 }
+    ]
+  }
+]
