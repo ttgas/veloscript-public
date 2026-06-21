@@ -2,5 +2,6 @@
   { "name": "Cala Mica y Platja de Binigaus (Menorca)", "url": "assets/routes/cala-mica-platja-den-patet-y-platja-de-binigaus-desde-ferrer.gpx" },
   { "name": "Alpe d'Huez", "url": "assets/routes/alpe-dhuez.gpx" },
   { "name": "Vía Verde Ripoll-Girona", "url": "assets/routes/via_verde_ripoll_girona.gpx" },
-  { "name": "Circular Lago Como (Italia)", "url": "assets/routes/lagoComo.gpx" }
+  { "name": "Circular Lago Como (Italia)", "url": "assets/routes/lagoComo.gpx" },
+  { "name": "Mini Ruta", "url": "assets/routes/miniruta.gpx" }
 ]
