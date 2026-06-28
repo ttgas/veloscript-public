@@ -1,10 +1,27 @@
 [
   { "name": "Alpe d'Huez", "url": "assets/routes/alpe-dhuez.gpx" },
-  { "name": "Vía Verde Ripoll-Girona", "url": "assets/routes/via_verde_ripoll_girona.gpx" },
-  { "name": "Terrassa - Montserrat (camino)", "url": "assets/routes/terrassa-montserrat-subida-por-camino_processed.gpx" },
-  { "name": "Planoles - Puigmal 2013", "url": "assets/routes/planoles-puigmal-2013_processed.gpx" },
-  { "name": "Tirol: Ehrwald to Leutasch", "url": "assets/routes/tirol-4-ehrwald-to-leutasch (1)_processed.gpx" },
-  { "name": "Tirol:  Scharnitz to Mittenwald & Maurach", "url": "assets/routes/tirol6-scharnitz-to-mittenwald-and-maurach_processed.gpx" },
-  { "name": "Suiza: Grindelwald - Grosse Scheidegg - First", "url": "assets/routes/etapa-5-grindelwald-grosse-scheidegg-first-grindelwald_processed.gpx" },
-  { "name": "Suiza: Grindelwald - Lauterbrunnen", "url": "assets/routes/etapa-6-grindelwald-lauterbrunnen (1)_processed.gpx" }
+  {
+    "name": "Terrassa - Montserrat (camino)",
+    "url": "assets/routes/terrassa-montserrat-subida-por-camino.gpx"
+  },
+  {
+    "name": "Planoles - Puigmal 2013",
+    "url": "assets/routes/planoles-puigmal-2013.gpx"
+  },
+  {
+    "name": "Tirol: Ehrwald to Leutasch",
+    "url": "assets/routes/tirol-4-ehrwald-to-leutasch.gpx"
+  },
+  {
+    "name": "Tirol: Scharnitz to Mittenwald & Maurach",
+    "url": "assets/routes/tirol6-scharnitz-to-mittenwald-and-maurach.gpx"
+  },
+  {
+    "name": "Suiza: Grindelwald - Grosse Scheidegg - First",
+    "url": "assets/routes/etapa-5-grindelwald-grosse-scheidegg-first-grindelwald.gpx"
+  },
+  {
+    "name": "Suiza: Grindelwald - Lauterbrunnen",
+    "url": "assets/routes/etapa-6-grindelwald-lauterbrunnen.gpx"
+  }
 ]
