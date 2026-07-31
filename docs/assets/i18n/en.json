@@ -1,0 +1,547 @@
+{
+  "app": {
+    "title": "VeloScript"
+  },
+  "header": {
+    "wkg": "W/kg",
+    "speed": "Speed",
+    "time": "Time",
+    "paused": "Paused",
+    "completed": "Completed",
+    "simulate": "Simulate",
+    "stop": "Stop",
+    "bluetooth": "Bluetooth",
+    "connectRoller": "Connect roller",
+    "connectCadence": "Connect cadence",
+    "loadRoute": "Load route",
+    "loadWorkout": "Load workout",
+    "zenMode": "Zen mode",
+    "engine3d": "3D engine",
+    "config": "Settings",
+    "help": "Help guide",
+    "helpMenuTitle": "Which screen do you want to discover?",
+    "widgets": "Widgets ({{count}})",
+    "restore": "Restore {{title}}"
+  },
+  "widgets": {
+    "physics": "Roller & Physics",
+    "stats": "Route Profile",
+    "workout": "Workout",
+    "runners": "Companions"
+  },
+  "widgetControls": {
+    "maximize": "Maximize",
+    "restore": "Restore",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "close": "Close"
+  },
+  "stats": {
+    "power": "Power ({{zone}})",
+    "wkg": "w/kg",
+    "resistanceErg": "Resistance (ERG)",
+    "resistance": "Resistance",
+    "maxMin": "Max {{max}}W · Min {{min}}W",
+    "cadence": "Cadence",
+    "virtualSpeed": "Virtual speed",
+    "kmh": "km/h",
+    "kmTravelled": "Km travelled",
+    "km": "km",
+    "currentGrade": "Current grade",
+    "sent": "Sent",
+    "trainingTime": "Training time",
+    "virtualGear": "Virtual gear"
+  },
+  "physics": {
+    "hideSettings": "− Hide physics settings",
+    "showSettings": "+ Show physics settings",
+    "title": "Physics settings",
+    "rollerSpeed": "Roller speed",
+    "finalResistance": "Final resistance",
+    "gearEffect": "Gear effect",
+    "gearEffectTitle": "Coefficient x Base Resistance",
+    "base": "base",
+    "wind": "Wind",
+    "cyclistWeight": "Rider weight",
+    "bikeWeight": "Bike weight",
+    "crr": "Crr (rolling)",
+    "cda": "CdA (aero)",
+    "ftp": "FTP",
+    "modifyRollerSpeed": "MODIFY ROLLER SPEED (TEST):"
+  },
+  "resistance": {
+    "mode": "Resistance mode: {{mode}}",
+    "erg": "ERG",
+    "normal": "Resistance"
+  },
+  "status": {
+    "waitingConnection": "Waiting for connection...",
+    "connected": "Connected!",
+    "disconnected": "Disconnected",
+    "testActive": "Test Mode Active (Manual Control)",
+    "downloadingRoute": "Downloading route for processing...",
+    "snappingToRoad": "Adjusting route to the road (Valhalla)...",
+    "routeExported": "Route exported successfully",
+    "exportError": "Error exporting route: {{error}}",
+    "processingGpx": "Processing GPX file...",
+    "downloadingTopo": "Downloading topographic mesh...",
+    "gpxError": "Error loading GPX",
+    "gpxErrorDetail": "Error loading GPX: {{error}}",
+    "loadingDefaultRoute": "Loading predefined route...",
+    "routeLoadError": "Error loading route: {{error}}",
+    "processingFiles": "Processing {{count}} route(s)...",
+    "processingUserRoute": "Processing user route...",
+    "filesAdded": "{{count}} route(s) added",
+    "filesErrors": "{{count}} error(s)",
+    "noFilesProcessed": "No files were processed",
+    "fileErrorsTitle": "Errors processing files:",
+    "unsupportedFormat": "unsupported or incorrect format",
+    "unexpectedError": "unexpected error",
+    "routeFallback": "Route",
+    "filesSummary": "{{added}} added · {{errors}} errors"
+  },
+  "toast": {
+    "rollerConnected": "Roller connected",
+    "rollerDisconnected": "Roller disconnected",
+    "cadenceConnected": "Cadence sensor connected"
+  },
+  "errors": {
+    "connect": "Connection error: {{error}}",
+    "connectCadence": "Error connecting cadence: {{error}}",
+    "exportRoute": "Error exporting route: {{error}}",
+    "loadRoute": "Error loading route: {{error}}",
+    "loadGpx": "Error loading GPX: {{error}}",
+    "parseWorkoutJson": "Error parsing workout JSON",
+    "confirmDeleteRoute": "Delete \"{{name}}\" from My Routes?",
+    "noBleService": "No compatible BLE service found (FTMS / Cycling Power)",
+    "noMatchingPoints": "No matching points found in this block.",
+    "kmzNoKml": "The KMZ file does not contain a valid KML file"
+  },
+  "routes": {
+    "title": "Select or Load Route",
+    "tabDefault": "Routes",
+    "tabMine": "My Routes",
+    "searchPlaceholder": "Search route...",
+    "load": "Load",
+    "downloadGpx": "Process and download GPX",
+    "preview": "Profile preview",
+    "sessionStats": "Session statistics",
+    "deleteFromMine": "Delete from My Routes",
+    "usageOnce": "Used {{count}} time",
+    "usageMany": "Used {{count}} times",
+    "dropText": "Drag your .gpx, .kml or .kmz files here",
+    "dropHint": "They will be added to My Routes without loading to the map. Use \"Load\" for each one.",
+    "close": "Close"
+  },
+  "workout": {
+    "title": "Load Workout",
+    "available": "Available Workouts",
+    "load": "Load",
+    "importJson": "Import Workout JSON",
+    "selectJson": "Select a .json workout file",
+    "jsonHint": "Format: name, description and segments with watts/duration",
+    "close": "Close",
+    "target": "Target",
+    "actual": "Actual",
+    "remaining": "Remaining"
+  },
+  "config": {
+    "title": "Configuration Parameters",
+    "language": "Language",
+    "languageHint": "Interface language. By default it follows your browser language.",
+    "languageOptions": {
+      "en": "English",
+      "es": "Español",
+      "ca": "Català",
+      "fr": "Français"
+    },
+    "group": {
+      "calidad_ui": "UI Quality",
+      "motor3d": "3D Engine",
+      "cyclist": "Rider & Bike",
+      "physics": "Physics",
+      "topography": "Topography",
+      "test_mode": "Test Mode",
+      "resistance": "Resistance",
+      "Otros": "Others"
+    },
+    "groupDesc": {
+      "calidad_ui": "Visual quality presets. Each preset adjusts multiple 3D engine and topography parameters.",
+      "motor3d": "3D terrain engine and OSM map configuration",
+      "cyclist": "Rider and bike data",
+      "physics": "Simulation physics parameters",
+      "topography": "Terrain elevation mesh",
+      "test_mode": "Variables applied when test mode is selected",
+      "resistance": "Roller resistance configuration (when no workout is active)"
+    },
+    "var": {
+      "Minimo": "Low",
+      "Medio": "Medium",
+      "Maximo": "High",
+      "osm_visibility_radius": "Map visibility radius",
+      "osm_load_zoom": "Map load zoom",
+      "osm_high_res_radius": "High-res radius",
+      "default_high_res_zoom": "High-res zoom",
+      "default_chunk_size_meters": "Chunk size",
+      "osm_lod_frame_skip": "LOD frame interval",
+      "fog_margin": "Fog control",
+      "track_visual_offset": "Track visual offset",
+      "show_road_lines": "Show road lines",
+      "road_visual_mode": "Road visual mode",
+      "max_fps": "Max FPS",
+      "ftp": "FTP",
+      "cyclist_weight": "Rider weight",
+      "bike_weight": "Bike weight",
+      "crr": "Crr (rolling resistance)",
+      "cda": "CdA (aero)",
+      "wind": "Wind speed",
+      "target_mesh_resolution_meters": "Mesh resolution",
+      "elevation_zoom": "Elevation zoom",
+      "topography_margin_meters": "Topography margin",
+      "manual_watts": "Manual watts",
+      "manual_speed": "Manual speed",
+      "default_cadence": "Default cadence",
+      "erg": "ERG mode",
+      "limite_resistencia": "Resistance limit",
+      "max_resistance": "Max resistance",
+      "min_resistance": "Min resistance",
+      "compañeros_virtuales": "Virtual companions"
+    },
+    "varDesc": {
+      "Minimo": "Maximum performance. Reduces 3D detail for low-end GPUs or limited CPUs.",
+      "Medio": "Balance between visual quality and performance.",
+      "Maximo": "Maximum visual quality. Enables the highest available detail level.",
+      "osm_visibility_radius": "Maximum visibility radius of maps in meters",
+      "osm_load_zoom": "Map load zoom outside the high-res radius (13: low)",
+      "osm_high_res_radius": "High definition (magnifying glass) radius in meters",
+      "default_high_res_zoom": "Map load zoom inside the high-res radius (19: high)",
+      "default_chunk_size_meters": "Size of each tile (chunk) in meters.<br>A tile is the minimum unit to which a texture is applied",
+      "osm_lod_frame_skip": "Frame interval to check proximity (LOD)",
+      "fog_margin": "Fog control: -1 disabled, >0 enabled (0.8=dense, 1.5=light, 10=subtle)",
+      "track_visual_offset": "Track elevation offset over terrain to avoid Z-fighting (in meters)",
+      "show_road_lines": "Show dashed center road lines",
+      "road_visual_mode": "3D road element display: solid = asphalt platform with center line, neon = single translucent line on the route axis, none = hidden",
+      "max_fps": "Maximum FPS limit (0 = no limit)",
+      "ftp": "Functional Threshold Power: maximum sustainable power for one hour",
+      "cyclist_weight": "Rider weight in kilograms",
+      "bike_weight": "Bike weight in kilograms",
+      "crr": "Coefficient of rolling resistance (Crr)",
+      "cda": "Aerodynamic coefficient (CdA) in m²",
+      "wind": "Wind speed in km/h (positive = headwind)",
+      "target_mesh_resolution_meters": "Fixed resolution in meters per polygon side of the elevation mesh.<br>Lower resolution = more polygons.<br>Higher resolution limits high map resolution",
+      "elevation_zoom": "Elevation tile download zoom; use 14 for high resolution",
+      "topography_margin_meters": "Margin in meters around the route bbox to trim the elevation mesh.<br>Greatly reduces video memory by discarding distant geometry.",
+      "manual_watts": "Fixed power in watts for manual mode",
+      "manual_speed": "Fixed speed in km/h for manual mode",
+      "default_cadence": "Default cadence in revolutions per minute",
+      "erg": "ERG mode active: the roller adjusts its resistance automatically to hold the target power sent to it, instead of simulating a grade or fixed resistance.",
+      "limite_resistencia": "Automatic: limits based on FTP (max=FTP, min=30% FTP).<br>Custom: uses the custom values below.",
+      "max_resistance": "Maximum resistance in watts (upper limit, applied before gear factor)",
+      "min_resistance": "Minimum resistance in watts (floor, applied before gear factor)",
+      "compañeros_virtuales": "Create virtual training companions in the simulator"
+    },
+    "option": {
+      "Automático": "Automatic",
+      "Custom": "Custom",
+      "solid": "Solid",
+      "neon": "Neon",
+      "none": "None"
+    },
+    "resetGroup": "Restore default values",
+    "apply": "Apply",
+    "save": "Save",
+    "cancel": "Cancel",
+    "presetApplied": "Preset applied: {{name}}",
+    "changes": "Changed values:",
+    "understood": "Got it"
+  },
+  "preview": {
+    "title": "Route Profile Preview",
+    "loading": "Loading profile...",
+    "close": "Close"
+  },
+  "statsModal": {
+    "noData": "No session data for this route.",
+    "avgPower": "Average Power",
+    "maxPower": "Max Power",
+    "minPower": "Min Power",
+    "duration": "Duration",
+    "distance": "Distance",
+    "elevationGain": "Positive Elevation",
+    "elevationLoss": "Negative Elevation",
+    "resumeText": "You were at km <strong>{{km}}</strong> of this route.",
+    "yesContinue": "Yes, continue",
+    "noRestart": "No, start over",
+    "close": "Close"
+  },
+  "duration": {
+    "hms": "{{h}}h {{m}}m {{s}}s",
+    "ms": "{{m}}m {{s}}s"
+  },
+  "profile": {
+    "toggleMode": "Toggle mode",
+    "pk": "PK",
+    "ele": "Ele",
+    "grade": "Grade"
+  },
+  "runner": {
+    "companions": "Companions",
+    "poi": "Points of interest",
+    "viewImage": "View image",
+    "wkg": "W/kg",
+    "virtualSuffix": " (V)"
+  },
+  "mapView": {
+    "selectView": "Select view",
+    "selectTerrain": "Select terrain",
+    "selectBackground": "Select background",
+    "autoView": "Back to automatic view",
+    "resume": "Resume ({{seconds}}s)",
+    "fixCamera": "Pin camera at this position and resume",
+    "roadSolid": "Solid road (click: neon line)",
+    "roadNeon": "Neon line (click: hide)",
+    "roadHidden": "Hidden road (click: solid road)",
+    "hideRoad": "Hide road",
+    "showRoad": "Show road"
+  },
+  "camera": {
+    "fpv": "First Person",
+    "rear": "Rear View",
+    "drone": "Drone Follow",
+    "isometric": "Isometric / Profile",
+    "zenith": "Top View",
+    "farside": "Wide Side Angle",
+    "map": "Map View",
+    "street": "Street Level",
+    "free": "Free Camera"
+  },
+  "map": {
+    "openstreetmap": {
+      "name": "OpenStreetMap",
+      "desc": "Standard worldwide collaborative map."
+    },
+    "esri-satellite": {
+      "name": "Esri Satellite",
+      "desc": "Global high-resolution satellite imagery (Esri World Imagery)."
+    },
+    "satellite": {
+      "name": "Satellite",
+      "desc": "High-resolution satellite imagery from MapTiler."
+    },
+    "outdoor-v4": {
+      "name": "Outdoor",
+      "desc": "Map optimized for hiking and cycling (MapTiler)."
+    },
+    "aquarelle-v4": {
+      "name": "Aquarelle",
+      "desc": "Artistic watercolor style for a relaxed view."
+    },
+    "pnoa": {
+      "name": "PNOA Orthophoto (Spain)",
+      "desc": "Aerial orthophotography from the National Aerial Orthophoto Plan (IGN)."
+    },
+    "icgc-catalunya": {
+      "name": "ICGC Orthophoto (Catalonia)",
+      "desc": "Territorial orthophoto of Catalonia (ICGC). 25 cm/pixel, annual update. CC-BY."
+    },
+    "usgs-imagery": {
+      "name": "USGS National Map (USA)",
+      "desc": "Satellite imagery from the US Geological Survey. National high-resolution coverage."
+    },
+    "swisstopo": {
+      "name": "SWISSIMAGE (Switzerland)",
+      "desc": "High-resolution orthophoto from Swisstopo. Swiss national coverage."
+    },
+    "basemap-at-orthofoto": {
+      "name": "basemap.at Orthophoto (Austria)",
+      "desc": "29 cm resolution orthophoto from basemap.at. Covers all of Austria. CC-BY 4.0."
+    },
+    "ign-france-ortho": {
+      "name": "IGN BD ORTHO (France)",
+      "desc": "Aerial orthophotography from IGN France. French national coverage."
+    },
+    "wireframe": {
+      "name": "Mesh (Grid)",
+      "desc": "Technical view of the geometry."
+    },
+    "lowpoly": {
+      "name": "Low-poly",
+      "desc": "Simplified artistic style."
+    },
+    "solid": {
+      "name": "Realistic (fixed texture)",
+      "desc": "Standard ground texture."
+    }
+  },
+  "trackConfig": {
+    "title": "TRACK CONFIGURATION",
+    "chunk": "Chunk (m)",
+    "zoomHr": "Zoom HR",
+    "fpsMax": "Max FPS",
+    "reloadMap": "Reload Map"
+  },
+  "powerzone": {
+    "Z1": {
+      "name": "Active Recovery",
+      "desc": "Very easy, for warming up or spinning legs out."
+    },
+    "Z2": {
+      "name": "Endurance",
+      "desc": "A pace you can hold for hours."
+    },
+    "Z3": {
+      "name": "Tempo",
+      "desc": "Moderate pace, requires focus."
+    },
+    "Z4": {
+      "name": "Lactate Threshold",
+      "desc": "The limit of your FTP; muscle burn."
+    },
+    "Z5": {
+      "name": "VO2 Max",
+      "desc": "Efforts of 3 to 8 minutes, gasping breathing."
+    },
+    "Z6": {
+      "name": "Anaerobic Capacity",
+      "desc": "Long sprints or attacks on climbs."
+    },
+    "Z7": {
+      "name": "Neuromuscular Power",
+      "desc": "Maximum sprints of a few seconds (full gas)."
+    }
+  },
+  "help": {
+    "menu": {
+      "main": {
+        "label": "Main screen",
+        "desc": "Walk through the header, widgets and main controls."
+      },
+      "routes": {
+        "label": "Route selection",
+        "desc": "Explains the routes modal and its actions."
+      },
+      "workout": {
+        "label": "Workout",
+        "desc": "Explains the workouts modal."
+      },
+      "config": {
+        "label": "Settings",
+        "desc": "Explains the parameters editor."
+      }
+    },
+    "steps": {
+      "main": {
+        "appTitle": {
+          "title": "VeloScript",
+          "desc": "Cycling simulator on real routes. Connect your smart trainer, choose a route and pedal: resistance and grade adjust in real time."
+        },
+        "sessionStats": {
+          "title": "Session stats",
+          "desc": "Live summary of your pedaling: watts per kilo (W/kg), speed and training time. Also shows the session status (paused or completed)."
+        },
+        "modeSwitch": {
+          "title": "Simulate / Bluetooth mode",
+          "desc": "Changes the data source of your session. «Simulate» uses test data to train without a trainer; «Bluetooth» waits for the signal from your trainer and real sensors."
+        },
+        "bleConnect": {
+          "title": "Connect roller",
+          "desc": "Pairs your smart trainer over Bluetooth (power and resistance). Only visible in Bluetooth mode."
+        },
+        "bleCadence": {
+          "title": "Connect cadence",
+          "desc": "Connects a standalone cadence sensor if your trainer does not measure it. Only visible in Bluetooth mode."
+        },
+        "loadRoute": {
+          "title": "Load route",
+          "desc": "Opens the modal to choose a predefined route or upload your own .gpx, .kml or .kmz files."
+        },
+        "loadWorkout": {
+          "title": "Load workout",
+          "desc": "Opens the modal of power-structured workouts. Requires a route to be loaded."
+        },
+        "zenMode": {
+          "title": "Zen mode",
+          "desc": "Hides the whole interface to pedal without distractions and focus on the 3D route."
+        },
+        "engine3d": {
+          "title": "3D engine",
+          "desc": "Toggles between the two route viewers: Three.js or MapLibre. Try them and keep the one you like best."
+        },
+        "config": {
+          "title": "Settings",
+          "desc": "Adjusts your rider data (weight, FTP), the roller physics, topography and resistance limits."
+        },
+        "help": {
+          "title": "Help guide",
+          "desc": "From here you can relaunch this guide or open the guide of each modal (routes, workout and settings)."
+        },
+        "widgetStats": {
+          "title": "Route profile",
+          "desc": "Shows the route elevation profile, your progress and segment statistics. You can maximize, collapse or move it."
+        },
+        "widgetWorkout": {
+          "title": "Workout",
+          "desc": "Chart of the loaded workout power plan, with your current power against the target."
+        },
+        "widgetRunners": {
+          "title": "Points on route",
+          "desc": "Virtual runners and points of interest on the map. Companions activate when you start pedaling."
+        },
+        "widgetPhysics": {
+          "title": "Roller & Physics",
+          "desc": "Live data from your session: power and zone, resistance, cadence, speed, kilometers, grade, time and virtual gear."
+        },
+        "statGear": {
+          "title": "Virtual gear",
+          "desc": "Changes the gear ratio to modify resistance. Keyboard shortcuts: «.» shifts up and «,» shifts down."
+        },
+        "widgetDock": {
+          "title": "Widget dock",
+          "desc": "When you collapse a widget it appears here so you can restore it with a click."
+        }
+      },
+      "routes": {
+        "routeTabs": {
+          "title": "Routes / My Routes",
+          "desc": "Toggles between the predefined routes and your saved routes (you can also drag your own files in «My Routes»)."
+        },
+        "routeFilter": {
+          "title": "Search",
+          "desc": "Filters the routes by name to quickly find the one you want to train on."
+        },
+        "routeCard": {
+          "title": "Route actions",
+          "desc": "Each route offers: «Load» (start pedaling), download the processed GPX, profile preview and statistics from previous sessions."
+        },
+        "routeMyTab": {
+          "title": "My Routes",
+          "desc": "Your saved routes, with their usage. In this tab you can drag .gpx, .kml or .kmz files to add them without loading them to the map."
+        }
+      },
+      "workout": {
+        "workoutList": {
+          "title": "Available workouts",
+          "desc": "Power-structured training plans. Press «Load» on one to set its watt curve as the target of your session."
+        },
+        "workoutImport": {
+          "title": "Import Workout JSON",
+          "desc": "Load your own workout in JSON format (name, description and segments with watts and duration). Visible in debug mode."
+        }
+      },
+      "config": {
+        "configModal": {
+          "title": "Configuration parameters",
+          "desc": "App settings hub: rider, physics, topography and resistance. Changes are saved for future sessions."
+        },
+        "configTabs": {
+          "title": "Tabs by group",
+          "desc": "Each tab groups related parameters. The info icon next to each variable explains what it is for."
+        }
+      }
+    },
+    "progress": "Step {{current}} of {{total}}",
+    "next": "Next",
+    "prev": "Previous",
+    "done": "Got it"
+  }
+}

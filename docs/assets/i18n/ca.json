@@ -1,0 +1,547 @@
+{
+  "app": {
+    "title": "VeloScript"
+  },
+  "header": {
+    "wkg": "W/kg",
+    "speed": "Velocitat",
+    "time": "Temps",
+    "paused": "En pausa",
+    "completed": "Completat",
+    "simulate": "Simular",
+    "stop": "Aturar",
+    "bluetooth": "Bluetooth",
+    "connectRoller": "Connectar rodillo",
+    "connectCadence": "Connectar cadència",
+    "loadRoute": "Carregar ruta",
+    "loadWorkout": "Carregar entrenament",
+    "zenMode": "Mode Zen",
+    "engine3d": "Motor 3D",
+    "config": "Configuració",
+    "help": "Guia d'ajuda",
+    "helpMenuTitle": "Quina pantalla vols descobrir?",
+    "widgets": "Widgets ({{count}})",
+    "restore": "Restaurar {{title}}"
+  },
+  "widgets": {
+    "physics": "Rodillo i físiques",
+    "stats": "Perfil de ruta",
+    "workout": "Entrenament",
+    "runners": "Acompanyants"
+  },
+  "widgetControls": {
+    "maximize": "Maximitzar",
+    "restore": "Restaurar",
+    "collapse": "Plegar",
+    "expand": "Desplegar",
+    "close": "Tanca"
+  },
+  "stats": {
+    "power": "Potència ({{zone}})",
+    "wkg": "w/kg",
+    "resistanceErg": "Resistència (ERG)",
+    "resistance": "Resistència",
+    "maxMin": "Màx {{max}}W · Mín {{min}}W",
+    "cadence": "Cadència",
+    "virtualSpeed": "Vel. virtual",
+    "kmh": "Km/h",
+    "kmTravelled": "Km recorreguts",
+    "km": "km",
+    "currentGrade": "Desnivell actual",
+    "sent": "Enviat",
+    "trainingTime": "Temps d'entrenament",
+    "virtualGear": "Marxa virtual"
+  },
+  "physics": {
+    "hideSettings": "− Amagar ajustos físics",
+    "showSettings": "+ Veure ajustos físics",
+    "title": "Ajustos físics",
+    "rollerSpeed": "Vel. rodillo",
+    "finalResistance": "Resistència final",
+    "gearEffect": "Efecte marxa",
+    "gearEffectTitle": "Coeficient x Resistència base",
+    "base": "base",
+    "wind": "Vent",
+    "cyclistWeight": "Pes ciclista",
+    "bikeWeight": "Pes bicicleta",
+    "crr": "Crr (rodament)",
+    "cda": "CdA (aero)",
+    "ftp": "FTP",
+    "modifyRollerSpeed": "MODIFICAR VEL. RODILLO (TEST):"
+  },
+  "resistance": {
+    "mode": "Mode de resistència: {{mode}}",
+    "erg": "ERG",
+    "normal": "Resistència"
+  },
+  "status": {
+    "waitingConnection": "Esperant connexió...",
+    "connected": "Connectat!",
+    "disconnected": "Desconnectat",
+    "testActive": "Mode Test Actiu (Control manual)",
+    "downloadingRoute": "Descarregant ruta per processar...",
+    "snappingToRoad": "Ajustant ruta a la carretera (Valhalla)...",
+    "routeExported": "Ruta exportada correctament",
+    "exportError": "Error en exportar la ruta: {{error}}",
+    "processingGpx": "Processant fitxer GPX...",
+    "downloadingTopo": "Descarregant malla topogràfica...",
+    "gpxError": "Error carregant GPX",
+    "gpxErrorDetail": "Error carregant GPX: {{error}}",
+    "loadingDefaultRoute": "Carregant ruta predefinida...",
+    "routeLoadError": "Error en carregar la ruta: {{error}}",
+    "processingFiles": "Processant {{count}} ruta/es...",
+    "processingUserRoute": "Processant ruta d'usuari...",
+    "filesAdded": "{{count}} ruta/es afegida/es",
+    "filesErrors": "{{count}} error/s",
+    "noFilesProcessed": "No s'han processat fitxers",
+    "fileErrorsTitle": "Errors en processar fitxers:",
+    "unsupportedFormat": "format no suportat o incorrecte",
+    "unexpectedError": "error inesperat",
+    "routeFallback": "Ruta",
+    "filesSummary": "{{added}} ruta(es) afegides · {{errors}} error(s)"
+  },
+  "toast": {
+    "rollerConnected": "Rodillo connectat",
+    "rollerDisconnected": "Rodillo desconnectat",
+    "cadenceConnected": "Sensor de cadència connectat"
+  },
+  "errors": {
+    "connect": "Error en connectar: {{error}}",
+    "connectCadence": "Error en connectar la cadència: {{error}}",
+    "exportRoute": "Error en exportar la ruta: {{error}}",
+    "loadRoute": "Error en carregar la ruta: {{error}}",
+    "loadGpx": "Error carregant GPX: {{error}}",
+    "parseWorkoutJson": "Error en analitzar el JSON de l'entrenament",
+    "confirmDeleteRoute": "Vols eliminar \"{{name}}\" de Les Meves Rutes?",
+    "noBleService": "No s'ha trobat cap servei BLE compatible (FTMS / Cycling Power)",
+    "noMatchingPoints": "No s'han trobat punts coincidents en aquest bloc.",
+    "kmzNoKml": "El fitxer KMZ no conté un fitxer KML vàlid"
+  },
+  "routes": {
+    "title": "Seleccionar o Carregar Ruta",
+    "tabDefault": "Rutes",
+    "tabMine": "Les Meves Rutes",
+    "searchPlaceholder": "Cercar ruta...",
+    "load": "Carregar",
+    "downloadGpx": "Processar i descarregar GPX",
+    "preview": "Vista prèvia del perfil",
+    "sessionStats": "Estadístiques de sessió",
+    "deleteFromMine": "Eliminar de Les Meves Rutes",
+    "usageOnce": "Usada {{count}} vegada",
+    "usageMany": "Usada {{count}} vegades",
+    "dropText": "Arrossega els teus fitxers .gpx, .kml o .kmz aquí",
+    "dropHint": "S'afegiran a Les Meves Rutes sense carregar-se al mapa. Usa \"Carregar\" per a cadascuna.",
+    "close": "Tanca"
+  },
+  "workout": {
+    "title": "Carregar Entrenament",
+    "available": "Entrenaments disponibles",
+    "load": "Carregar",
+    "importJson": "Importar Workout JSON",
+    "selectJson": "Selecciona un fitxer .json d'entrenament",
+    "jsonHint": "Format: nom, descripció i segments amb watts/duració",
+    "close": "Tanca",
+    "target": "Objectiu",
+    "actual": "Actual",
+    "remaining": "Restant"
+  },
+  "config": {
+    "title": "Paràmetres de Configuració",
+    "language": "Idioma",
+    "languageHint": "Idioma de la interfície. Per defecte segueix l'idioma del navegador.",
+    "languageOptions": {
+      "en": "English",
+      "es": "Español",
+      "ca": "Català",
+      "fr": "Français"
+    },
+    "group": {
+      "calidad_ui": "Qualitat UI",
+      "motor3d": "Motor 3D",
+      "cyclist": "Ciclista i bicicleta",
+      "physics": "Físiques",
+      "topography": "Topografia",
+      "test_mode": "Mode Test",
+      "resistance": "Resistència",
+      "Otros": "Altres"
+    },
+    "groupDesc": {
+      "calidad_ui": "Preconfiguracions de qualitat visual. Cada preset ajusta múltiples paràmetres del motor 3D i la topografia.",
+      "motor3d": "Configuració del motor 3D de terreny i mapes OSM",
+      "cyclist": "Dades del ciclista i la bicicleta",
+      "physics": "Paràmetres físics de la simulació",
+      "topography": "Malla d'elevació del terreny",
+      "test_mode": "Variables que s'apliquen en seleccionar el mode test",
+      "resistance": "Configuració de resistència del rodillo (sense workout actiu)"
+    },
+    "var": {
+      "Minimo": "Mínim",
+      "Medio": "Mitjà",
+      "Maximo": "Màxim",
+      "osm_visibility_radius": "Radi de visibilitat de mapes",
+      "osm_load_zoom": "Zoom de càrrega de mapes",
+      "osm_high_res_radius": "Radi d'alta resolució",
+      "default_high_res_zoom": "Zoom d'alta resolució",
+      "default_chunk_size_meters": "Mida de baldosa",
+      "osm_lod_frame_skip": "Interval de frames LOD",
+      "fog_margin": "Control de boira",
+      "track_visual_offset": "Offset visual de la ruta",
+      "show_road_lines": "Mostrar línies de carretera",
+      "road_visual_mode": "Mode visual de carretera",
+      "max_fps": "FPS màxims",
+      "ftp": "FTP",
+      "cyclist_weight": "Pes del ciclista",
+      "bike_weight": "Pes de la bicicleta",
+      "crr": "Crr (rodament)",
+      "cda": "CdA (aero)",
+      "wind": "Velocitat del vent",
+      "target_mesh_resolution_meters": "Resolució de la malla",
+      "elevation_zoom": "Zoom d'elevació",
+      "topography_margin_meters": "Marge de topografia",
+      "manual_watts": "Watts manuals",
+      "manual_speed": "Velocitat manual",
+      "default_cadence": "Cadència per defecte",
+      "erg": "Mode ERG",
+      "limite_resistencia": "Límit de resistència",
+      "max_resistance": "Resistència màxima",
+      "min_resistance": "Resistència mínima",
+      "compañeros_virtuales": "Acompanyants virtuals"
+    },
+    "varDesc": {
+      "Minimo": "Màxim rendiment. Redueix el detall 3D per a equips amb poca memòria de vídeo o CPU limitada.",
+      "Medio": "Equilibri entre qualitat visual i rendiment.",
+      "Maximo": "Màxima qualitat visual. Activa el nivell de detall més alt disponible.",
+      "osm_visibility_radius": "Radi màxim de visibilitat de mapes en metres",
+      "osm_load_zoom": "Zoom de càrrega de mapes fora del radi d'alta resolució (13: baixa)",
+      "osm_high_res_radius": "Radi d'alta definició (lupa) en metres",
+      "default_high_res_zoom": "Zoom de càrrega de mapes dins del radi d'alta resolució (19: alta)",
+      "default_chunk_size_meters": "Mida de cada baldosa (chunk) en metres.<br>Una baldosa és la unitat mínima a la qual s'aplica una textura",
+      "osm_lod_frame_skip": "Interval de frames per comprovar proximitat (LOD)",
+      "fog_margin": "Control de boira: -1 desactivada, >0 activa (0.8=densa, 1.5=lleugera, 10=subtíl)",
+      "track_visual_offset": "Offset d'elevació de la ruta sobre el terreny per evitar Z-fighting (en metres)",
+      "show_road_lines": "Mostrar línies discontínues centrals de la carretera",
+      "road_visual_mode": "Visualització de l'element de carretera en 3D: solid = plataforma asfaltada amb línia central, neon = una única línia translúcida a l'eix de la ruta, none = oculta",
+      "max_fps": "Límit màxim de FPS (0 = sense límit)",
+      "ftp": "Functional Threshold Power: potència màxima sostenible durant una hora",
+      "cyclist_weight": "Pes del ciclista en quilograms",
+      "bike_weight": "Pes de la bicicleta en quilograms",
+      "crr": "Coeficient de resistència al rodament (Crr)",
+      "cda": "Coeficient aerodinàmic (CdA) en m²",
+      "wind": "Velocitat del vent en km/h (positiu = en contra)",
+      "target_mesh_resolution_meters": "Resolució fixa en metres per costat de polígon de la malla d'elevació.<br>Resolució més baixa = més polígons.<br>Resolució més alta impedeix resolucions altes de mapa",
+      "elevation_zoom": "Zoom de descàrrega de tiles d'elevació; per a resolució alta, posar 14",
+      "topography_margin_meters": "Marge en metres al voltant del bbox de la ruta per retallar la malla d'elevació.<br>Redueix dràsticament la memòria de vídeo descartant geometria llunyana.",
+      "manual_watts": "Potència fixa en watts per al mode manual",
+      "manual_speed": "Velocitat fixa en km/h per al mode manual",
+      "default_cadence": "Cadència per defecte en revolucions per minut",
+      "erg": "Mode ERG actiu: el rodillo ajusta la seva resistència automàticament perquè mantinguis la potència objectiu que se li envia, en lloc de simular un pendent o resistència fixa.",
+      "limite_resistencia": "Automàtic: límits basats en FTP (màx=FTP, mín=30% FTP).<br>Custom: uses els valors personalitzats de sota.",
+      "max_resistance": "Resistència màxima en watts (límit superior, s'aplica abans del gearFactor)",
+      "min_resistance": "Resistència mínima en watts (sòl inferior, s'aplica abans del gearFactor)",
+      "compañeros_virtuales": "Crear acompanyants virtuals d'entrenament al simulador"
+    },
+    "option": {
+      "Automático": "Automàtic",
+      "Custom": "Personalitzat",
+      "solid": "solid",
+      "neon": "neon",
+      "none": "none"
+    },
+    "resetGroup": "Restaurar valors per defecte",
+    "apply": "Aplicar",
+    "save": "Desa",
+    "cancel": "Cancel·la",
+    "presetApplied": "Preset aplicat: {{name}}",
+    "changes": "Valors canviats:",
+    "understood": "Entès"
+  },
+  "preview": {
+    "title": "Vista Prèvia del Perfil",
+    "loading": "Carregant perfil...",
+    "close": "Tanca"
+  },
+  "statsModal": {
+    "noData": "No hi ha dades de sessions anteriors per a aquesta ruta.",
+    "avgPower": "Potència mitjana",
+    "maxPower": "Potència màx",
+    "minPower": "Potència mín",
+    "duration": "Durada",
+    "distance": "Distància",
+    "elevationGain": "Desnivell positiu",
+    "elevationLoss": "Desnivell negatiu",
+    "resumeText": "Anaves pel km <strong>{{km}}</strong> d'aquesta ruta.",
+    "yesContinue": "Sí, continuar",
+    "noRestart": "No, començar de nou",
+    "close": "Tanca"
+  },
+  "duration": {
+    "hms": "{{h}}h {{m}}m {{s}}s",
+    "ms": "{{m}}m {{s}}s"
+  },
+  "profile": {
+    "toggleMode": "Alternar mode",
+    "pk": "PK",
+    "ele": "Ele",
+    "grade": "Pendent"
+  },
+  "runner": {
+    "companions": "Acompanyants",
+    "poi": "Punts d'interès",
+    "viewImage": "Veure imatge",
+    "wkg": "W/kg",
+    "virtualSuffix": " (V)"
+  },
+  "mapView": {
+    "selectView": "Seleccionar vista",
+    "selectTerrain": "Seleccionar terreny",
+    "selectBackground": "Seleccionar fons",
+    "autoView": "Tornar a vista automàtica",
+    "resume": "Reprendre ({{seconds}}s)",
+    "fixCamera": "Fixar càmera en aquesta posició i reprendre",
+    "roadSolid": "Carretera sòlida (clic: línia neó)",
+    "roadNeon": "Línia neó (clic: amagar)",
+    "roadHidden": "Carretera oculta (clic: carretera sòlida)",
+    "hideRoad": "Amagar carretera",
+    "showRoad": "Mostrar carretera"
+  },
+  "camera": {
+    "fpv": "Primera Persona",
+    "rear": "Vista posterior",
+    "drone": "Dron de seguiment",
+    "isometric": "Isomètrica / Perfil",
+    "zenith": "Vista zenital",
+    "farside": "Gran angular lateral",
+    "map": "Vista Mapa",
+    "street": "Nivell de carrer",
+    "free": "Càmera lliure"
+  },
+  "map": {
+    "openstreetmap": {
+      "name": "OpenStreetMap",
+      "desc": "Mapa estàndard col·laboratiu mundial."
+    },
+    "esri-satellite": {
+      "name": "Esri Satèl·lit",
+      "desc": "Imatges de satèl·lit globals d'alta resolució (Esri World Imagery)."
+    },
+    "satellite": {
+      "name": "Satèl·lit",
+      "desc": "Imatges de satèl·lit d'alta resolució de MapTiler."
+    },
+    "outdoor-v4": {
+      "name": "Outdoor",
+      "desc": "Mapa optimitzat per a senderisme i ciclisme (MapTiler)."
+    },
+    "aquarelle-v4": {
+      "name": "Aquarel·la",
+      "desc": "Estil artístic d'aquarel·la per a una vista relaxada."
+    },
+    "pnoa": {
+      "name": "Ortofoto PNOA (Espanya)",
+      "desc": "Ortofotografia del Pla Nacional d'Ortofotografia Aèria (IGN)."
+    },
+    "icgc-catalunya": {
+      "name": "Ortofoto ICGC (Catalunya)",
+      "desc": "Ortofoto territorial de Catalunya (ICGC). 25 cm/píxel, actualització anual. CC-BY."
+    },
+    "usgs-imagery": {
+      "name": "USGS National Map (EUA)",
+      "desc": "Imatge satèl·lit del Servei Geològic dels EUA. Cobertura nacional d'alta resolució."
+    },
+    "swisstopo": {
+      "name": "SWISSIMAGE (Suïssa)",
+      "desc": "Ortofoto d'alta resolució de Swisstopo. Cobertura nacional suïssa."
+    },
+    "basemap-at-orthofoto": {
+      "name": "Ortofoto basemap.at (Àustria)",
+      "desc": "Ortofoto de 29 cm de resolució de basemap.at. Cobreix tota Àustria. CC-BY 4.0."
+    },
+    "ign-france-ortho": {
+      "name": "BD ORTHO IGN (França)",
+      "desc": "Ortofotografia aèria de l'Institut National de l'Information Géographique et Forestière. Cobertura nacional francesa."
+    },
+    "wireframe": {
+      "name": "Malla (Quadrícula)",
+      "desc": "Vista tècnica de la geometria."
+    },
+    "lowpoly": {
+      "name": "Poligonal (Low-poly)",
+      "desc": "Estil simplificat i artístic."
+    },
+    "solid": {
+      "name": "Realista (Textura fixa)",
+      "desc": "Textura de terra estàndard."
+    }
+  },
+  "trackConfig": {
+    "title": "CONFIGURACIÓ DE PISTA",
+    "chunk": "Chunk (m)",
+    "zoomHr": "Zoom HR",
+    "fpsMax": "FPS màx",
+    "reloadMap": "Recarregar Mapa"
+  },
+  "powerzone": {
+    "Z1": {
+      "name": "Recuperació activa",
+      "desc": "Molt suau, per escalfar o descarregar cames."
+    },
+    "Z2": {
+      "name": "Resistència (Endurance)",
+      "desc": "Ritme que pots mantenir durant hores."
+    },
+    "Z3": {
+      "name": "Tempo",
+      "desc": "Ritme moderat, requereix concentració."
+    },
+    "Z4": {
+      "name": "Llindar de lactat (Threshold)",
+      "desc": "El límit del teu FTP; cremor muscular."
+    },
+    "Z5": {
+      "name": "Capacitat aeròbica (VO2 Max)",
+      "desc": "Esforços de 3 a 8 minuts, respiració ofegada."
+    },
+    "Z6": {
+      "name": "Capacitat anaeròbica",
+      "desc": "Sprints llargs o atacs en pujada."
+    },
+    "Z7": {
+      "name": "Potència neuromuscular",
+      "desc": "Sprints màxims de pocs segons (full gas)."
+    }
+  },
+  "help": {
+    "menu": {
+      "main": {
+        "label": "Pantalla principal",
+        "desc": "Recorre la capçalera, els widgets i els controls principals."
+      },
+      "routes": {
+        "label": "Selecció de ruta",
+        "desc": "Explica el modal de rutes i les seves accions."
+      },
+      "workout": {
+        "label": "Entrenament",
+        "desc": "Explica el modal d'entrenaments."
+      },
+      "config": {
+        "label": "Configuració",
+        "desc": "Explica l'editor de paràmetres."
+      }
+    },
+    "steps": {
+      "main": {
+        "appTitle": {
+          "title": "VeloScript",
+          "desc": "Simulador de ciclisme sobre ruta real. Connecta el teu rodillo intel·ligent, tria una ruta i pedala: la resistència i el desnivell s'ajusten en temps real."
+        },
+        "sessionStats": {
+          "title": "Estadístiques de sessió",
+          "desc": "Resum en viu del teu pedaleig: watts per quilo (W/kg), velocitat i temps d'entrenament. També mostra l'estat de la sessió (en pausa o completada)."
+        },
+        "modeSwitch": {
+          "title": "Mode Simular / Bluetooth",
+          "desc": "Canvia la font de dades de la teva sessió. «Simular» usa dades de prova per entrenar sense rodillo; «Bluetooth» espera el senyal del teu rodillo i sensors reals."
+        },
+        "bleConnect": {
+          "title": "Connectar rodillo",
+          "desc": "Vincula el teu rodillo intel·ligent per Bluetooth (potència i resistència). Només visible en mode Bluetooth."
+        },
+        "bleCadence": {
+          "title": "Connectar cadència",
+          "desc": "Connecta un sensor de cadència independent si el teu rodillo no la mesura. Només visible en mode Bluetooth."
+        },
+        "loadRoute": {
+          "title": "Carregar ruta",
+          "desc": "Obre el modal per triar una ruta predefinida o pujar els teus propis fitxers .gpx, .kml o .kmz."
+        },
+        "loadWorkout": {
+          "title": "Carregar entrenament",
+          "desc": "Obre el modal d'entrenaments estructurats per potència. Requereix tenir una ruta carregada."
+        },
+        "zenMode": {
+          "title": "Mode Zen",
+          "desc": "Amaga tota la interfície per pedalar sense distraccions i centrar-te en la ruta 3D."
+        },
+        "engine3d": {
+          "title": "Motor 3D",
+          "desc": "Alterna entre els dos visors de la ruta: Three.js o MapLibre. Prova'ls i queda't amb el que et vagi millor."
+        },
+        "config": {
+          "title": "Configuració",
+          "desc": "Ajusta les teves dades de ciclista (pes, FTP), la física del rodillo, la topografia i els límits de resistència."
+        },
+        "help": {
+          "title": "Guia d'ajuda",
+          "desc": "Des d'aquí pots tornar a llançar aquesta guia o obrir la guia de cada modal (rutes, entrenament i configuració)."
+        },
+        "widgetStats": {
+          "title": "Perfil de ruta",
+          "desc": "Mostra el perfil d'elevació de la ruta, el teu progrés i les estadístiques del tram. Pots maximitzar-lo, plegar-lo o moure'l."
+        },
+        "widgetWorkout": {
+          "title": "Entrenament",
+          "desc": "Gràfica del pla de potència de l'entrenament carregat, amb la teva potència actual davant de l'objectiu."
+        },
+        "widgetRunners": {
+          "title": "Punts en ruta",
+          "desc": "Corredors virtuals i punts d'interès sobre el mapa. Els acompanyants s'activen quan comences a pedalar."
+        },
+        "widgetPhysics": {
+          "title": "Rodillo i Físiques",
+          "desc": "Dades en viu de la teva sessió: potència i zona, resistència, cadència, velocitat, quilòmetres, desnivell, temps i marxa virtual."
+        },
+        "statGear": {
+          "title": "Marxa virtual",
+          "desc": "Canvia la relació de marxes per modificar la resistència. Dreceres de teclat: «.» puja marxa i «,» baixa."
+        },
+        "widgetDock": {
+          "title": "Dock de widgets",
+          "desc": "Quan plegues un widget apareix aquí per poder restaurar-lo amb un clic."
+        }
+      },
+      "routes": {
+        "routeTabs": {
+          "title": "Rutes / Les Meves Rutes",
+          "desc": "Alterna entre les rutes predefinides i les teves rutes desades (també pots arrossegar els teus propis fitxers a «Les Meves Rutes»)."
+        },
+        "routeFilter": {
+          "title": "Cercador",
+          "desc": "Filtra les rutes per nom per trobar ràpidament la que vols entrenar."
+        },
+        "routeCard": {
+          "title": "Accions de ruta",
+          "desc": "Cada ruta ofereix: «Carregar» (començar a pedalar), descarregar el GPX processat, vista prèvia del perfil i estadístiques de sessions anteriors."
+        },
+        "routeMyTab": {
+          "title": "Les Meves Rutes",
+          "desc": "Les teves rutes desades, amb el seu ús. En aquesta pestanya pots arrossegar fitxers .gpx, .kml o .kmz per afegir-los sense carregar-los al mapa."
+        }
+      },
+      "workout": {
+        "workoutList": {
+          "title": "Entrenaments disponibles",
+          "desc": "Plans d'entrenament estructurats per potència. Prem «Carregar» en un per fixar la seva corba de watts com a objectiu de la teva sessió."
+        },
+        "workoutImport": {
+          "title": "Importar Workout JSON",
+          "desc": "Carrega el teu propi entrenament en format JSON (nom, descripció i segments amb watts i duració). Visible en mode debug."
+        }
+      },
+      "config": {
+        "configModal": {
+          "title": "Paràmetres de configuració",
+          "desc": "Central d'ajustos de l'app: ciclista, física, topografia i resistència. Els canvis es desen per a sessions futures."
+        },
+        "configTabs": {
+          "title": "Pestanyes per grup",
+          "desc": "Cada pestanya agrupa paràmetres relacionats. La icona d'informació al costat de cada variable explica per a què serveix."
+        }
+      }
+    },
+    "progress": "Pas {{current}} de {{total}}",
+    "next": "Següent",
+    "prev": "Anterior",
+    "done": "Entès"
+  }
+}
