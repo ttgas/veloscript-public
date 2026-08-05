@@ -1,0 +1,256 @@
+[
+  {
+    "name": "Base - Quema Grasas (Z2)",
+    "description": "Sesión aeróbica constante para mejorar la eficiencia metabólica.",
+    "difficulty": "easy",
+    "segments": [
+      { "wattsStart":0.55, "wattsEnd":0.75, "durationMinutes": 10 },
+      { "wattsStart":0.75, "wattsEnd":0.75, "durationMinutes": 40 },
+      { "wattsStart":0.75, "wattsEnd":0.55, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Intervalos VO2 Max (5x3')",
+    "description": "Mejora tu consumo máximo de oxígeno con intervalos cortos de alta intensidad.",
+    "difficulty": "hard",
+    "segments": [
+      { "wattsStart":0.55, "wattsEnd":0.75, "durationMinutes": 15 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 3 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 3 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 3 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 3 },
+      { "wattsStart":1.2, "wattsEnd":1.2, "durationMinutes": 3 },
+      { "wattsStart":0.55, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "La Pirámide",
+    "description": "Escalera de potencia que pone a prueba tu resistencia muscular.",
+    "difficulty": "medium",
+    "segments": [
+      { "wattsStart":0.55, "wattsEnd": 0.75, "durationMinutes": 10 },
+      { "wattsStart":0.9, "wattsEnd":0.9, "durationMinutes": 5 },
+      { "wattsStart":1.05, "wattsEnd":1.05, "durationMinutes": 4 },
+      { "wattsStart":1.05, "wattsEnd":1.05, "durationMinutes": 3 },
+      { "wattsStart":1.05, "wattsEnd":1.2, "durationMinutes": 2 },
+      { "wattsStart":1.05, "wattsEnd":1.05, "durationMinutes": 3 },
+      { "wattsStart":1.05, "wattsEnd":1.05, "durationMinutes": 4 },
+      { "wattsStart":0.9, "wattsEnd":0.9, "durationMinutes": 5 },
+      { "wattsStart":0.55, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Progresivo 40 min (Z1-Z5)",
+    "url": "https://www.krewt.org/public/veloscript/workouts/progresivo-40-min-z1-z5.json",
+    "description": "Rampa progresiva desde calentamiento hasta zona de fatiga.",
+    "difficulty": "medium",
+    "segments": [
+      { "wattsStart": 0.3125, "wattsEnd":1.2, "durationMinutes": 40 }
+    ]
+  },
+  {
+    "name": "Progresivo 40 min 50W-250W",
+    "url": "https://www.krewt.org/public/veloscript/workouts/progresivo-40-min-50w-250w.json",
+    "description": "Mejora tu consumo máximo de oxígeno con intervalos cortos de alta intensidad.",
+    "difficulty": "medium",
+    "segments": [
+      { "wattsStart": 50, "wattsEnd": 250, "durationMinutes": 40 }
+    ]
+  },
+  {
+    "name": "Intervals Activation",
+    "url": "https://www.krewt.org/public/veloscript/workouts/intervals-activation.json",
+    "description": "Sesión de activación con intervalos crecientes y un bloque de estabilidad aeróbica.",
+    "difficulty": "medium",
+    "segments": [
+      { "wattsStart": 0.375, "wattsEnd": 0.55, "durationMinutes": 4 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart":0.75, "wattsEnd":0.75, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 0.95, "wattsEnd": 0.95, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 1.5, "wattsEnd": 1.5, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 0.75, "wattsEnd": 0.75, "durationMinutes": 7 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 2 }
+    ]
+  },
+  {
+    "name": "Sweet Spot 2x20'",
+    "description": "Dos bloques largos al 88-93% de FTP, el estímulo más eficiente para elevar tu FTP sin dejarte agotado.",
+    "difficulty": "medium",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.75, "durationMinutes": 12 },
+      { "wattsStart": 0.88, "wattsEnd": 0.92, "durationMinutes": 20 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 10 },
+      { "wattsStart": 0.9, "wattsEnd": 0.93, "durationMinutes": 20 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Umbral 3x10'",
+    "description": "Intervalos al 100% de FTP para elevar tu umbral de lactato y tu potencia sostenible.",
+    "difficulty": "hard",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.8, "durationMinutes": 15 },
+      { "wattsStart": 1.0, "wattsEnd": 1.0, "durationMinutes": 10 },
+      { "wattsStart": 0.6, "wattsEnd": 0.6, "durationMinutes": 5 },
+      { "wattsStart": 1.0, "wattsEnd": 1.0, "durationMinutes": 10 },
+      { "wattsStart": 0.6, "wattsEnd": 0.6, "durationMinutes": 5 },
+      { "wattsStart": 1.0, "wattsEnd": 1.0, "durationMinutes": 10 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Escalera de Umbral",
+    "description": "Ritmo de FTP con cambios de bloque (8/12/8 minutos) para trabajar el manejo del esfuerzo cerca del límite.",
+    "difficulty": "medium",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.75, "durationMinutes": 15 },
+      { "wattsStart": 1.0, "wattsEnd": 1.0, "durationMinutes": 8 },
+      { "wattsStart": 0.6, "wattsEnd": 0.6, "durationMinutes": 4 },
+      { "wattsStart": 1.0, "wattsEnd": 1.0, "durationMinutes": 12 },
+      { "wattsStart": 0.6, "wattsEnd": 0.6, "durationMinutes": 4 },
+      { "wattsStart": 1.0, "wattsEnd": 1.0, "durationMinutes": 8 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Over/Unders 4x6'",
+    "description": "Alterna 105% / 95% de FTP sin descanso: te enseña a gestionar cambios de ritmo en carrera.",
+    "difficulty": "hard",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.75, "durationMinutes": 15 },
+      { "wattsStart": 1.05, "wattsEnd": 1.05, "durationMinutes": 3 },
+      { "wattsStart": 0.95, "wattsEnd": 0.95, "durationMinutes": 3 },
+      { "wattsStart": 1.05, "wattsEnd": 1.05, "durationMinutes": 3 },
+      { "wattsStart": 0.95, "wattsEnd": 0.95, "durationMinutes": 3 },
+      { "wattsStart": 1.05, "wattsEnd": 1.05, "durationMinutes": 3 },
+      { "wattsStart": 0.95, "wattsEnd": 0.95, "durationMinutes": 3 },
+      { "wattsStart": 1.05, "wattsEnd": 1.05, "durationMinutes": 3 },
+      { "wattsStart": 0.95, "wattsEnd": 0.95, "durationMinutes": 3 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "VO2 Max 4x4'",
+    "description": "Cuatro intervalos de 4 min al 110-115% de FTP para elevar tu techo aeróbico.",
+    "difficulty": "hard",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.75, "durationMinutes": 15 },
+      { "wattsStart": 1.1, "wattsEnd": 1.1, "durationMinutes": 4 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 4 },
+      { "wattsStart": 1.12, "wattsEnd": 1.12, "durationMinutes": 4 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 4 },
+      { "wattsStart": 1.15, "wattsEnd": 1.15, "durationMinutes": 4 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 4 },
+      { "wattsStart": 1.15, "wattsEnd": 1.12, "durationMinutes": 4 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Billat 30/30 x10",
+    "description": "Series de 30s al 125% de FTP con 30s suaves: maximiza el tiempo acumulado en VO2 max.",
+    "difficulty": "hard",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.75, "durationMinutes": 15 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 1.25, "wattsEnd": 1.25, "durationMinutes": 0.5 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 0.5 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Anaeróbico 1-Minuteros",
+    "description": "Dos bloques de 3x1' al 130% de FTP para mejorar tu capacidad anaeróbica de ataque.",
+    "difficulty": "hard",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.75, "durationMinutes": 15 },
+      { "wattsStart": 1.3, "wattsEnd": 1.3, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 1.3, "wattsEnd": 1.3, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 1.3, "wattsEnd": 1.3, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 6 },
+      { "wattsStart": 1.3, "wattsEnd": 1.3, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 1.3, "wattsEnd": 1.3, "durationMinutes": 1 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 1 },
+      { "wattsStart": 1.3, "wattsEnd": 1.3, "durationMinutes": 1 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Sprints Neuromusculares (Z7)",
+    "description": "Sprints máximos de 20s al 160% de FTP con recuperaciones largas para tu potencia de pico.",
+    "difficulty": "hard",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.75, "durationMinutes": 15 },
+      { "wattsStart": 1.6, "wattsEnd": 1.6, "durationMinutes": 0.33 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 5 },
+      { "wattsStart": 1.6, "wattsEnd": 1.6, "durationMinutes": 0.33 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 5 },
+      { "wattsStart": 1.6, "wattsEnd": 1.6, "durationMinutes": 0.33 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 5 },
+      { "wattsStart": 1.6, "wattsEnd": 1.6, "durationMinutes": 0.33 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 5 },
+      { "wattsStart": 1.6, "wattsEnd": 1.6, "durationMinutes": 0.33 },
+      { "wattsStart": 0.55, "wattsEnd": 0.55, "durationMinutes": 5 },
+      { "wattsStart": 1.6, "wattsEnd": 1.6, "durationMinutes": 0.33 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Tempo 60'",
+    "description": "Ritmo aeróbico sostenido al 85-88% de FTP para construir resistencia muscular de base.",
+    "difficulty": "medium",
+    "segments": [
+      { "wattsStart": 0.5, "wattsEnd": 0.75, "durationMinutes": 15 },
+      { "wattsStart": 0.85, "wattsEnd": 0.85, "durationMinutes": 30 },
+      { "wattsStart": 0.7, "wattsEnd": 0.7, "durationMinutes": 5 },
+      { "wattsStart": 0.88, "wattsEnd": 0.88, "durationMinutes": 25 },
+      { "wattsStart": 0.75, "wattsEnd": 0.5, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Fondo Z2 90'",
+    "description": "Rodada larga al 65-70% de FTP para desarrollar tu base aeróbica y oxidación de grasas.",
+    "difficulty": "easy",
+    "segments": [
+      { "wattsStart": 0.55, "wattsEnd": 0.65, "durationMinutes": 10 },
+      { "wattsStart": 0.65, "wattsEnd": 0.7, "durationMinutes": 70 },
+      { "wattsStart": 0.7, "wattsEnd": 0.55, "durationMinutes": 10 }
+    ]
+  },
+  {
+    "name": "Recuperación Activa",
+    "description": "Pedaleo muy suave al 50% de FTP para soltar piernas y facilitar la recuperación.",
+    "difficulty": "easy",
+    "segments": [
+      { "wattsStart": 0.45, "wattsEnd": 0.5, "durationMinutes": 10 },
+      { "wattsStart": 0.5, "wattsEnd": 0.5, "durationMinutes": 20 },
+      { "wattsStart": 0.5, "wattsEnd": 0.45, "durationMinutes": 5 }
+    ]
+  }
+]

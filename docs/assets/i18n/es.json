@@ -105,6 +105,16 @@
     "rollerDisconnected": "Rodillo desconectado",
     "cadenceConnected": "Sensor de cadencia conectado"
   },
+  "reconnect": {
+    "title": "Reconectar dispositivo",
+    "message": "Se ha detectado el dispositivo al que te conectaste anteriormente:",
+    "trainer": "Rodillo",
+    "cadence": "Sensor de cadencia",
+    "yes": "Conectar",
+    "no": "Ahora no",
+    "connecting": "Conectando...",
+    "hint": "Este navegador no permite reconexión automática. Al pulsar Conectar deberás volver a seleccionar el dispositivo."
+  },
   "errors": {
     "connect": "Error al conectar: {{error}}",
     "connectCadence": "Error al conectar cadencia: {{error}}",
@@ -143,7 +153,20 @@
     "close": "Cerrar",
     "target": "Objetivo",
     "actual": "Actual",
-    "remaining": "Restante"
+    "remaining": "Restante",
+    "time": "Tiempo",
+    "previewBadge": "Vista previa",
+    "preview": "Ver vista previa del entrenamiento",
+    "previewTitle": "Vista previa del entrenamiento",
+    "difficulty": {
+      "easy": "Fácil",
+      "medium": "Media",
+      "hard": "Difícil"
+    },
+    "filter": {
+      "all": "Todos",
+      "empty": "No hay entrenamientos con esa dificultad"
+    }
   },
   "config": {
     "title": "Parámetros de Configuración",

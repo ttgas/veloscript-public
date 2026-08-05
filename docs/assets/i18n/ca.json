@@ -105,6 +105,16 @@
     "rollerDisconnected": "Rodillo desconnectat",
     "cadenceConnected": "Sensor de cadència connectat"
   },
+  "reconnect": {
+    "title": "Reconnectar dispositiu",
+    "message": "S'ha detectat el dispositiu al qual et vas connectar anteriorment:",
+    "trainer": "Rodillo",
+    "cadence": "Sensor de cadència",
+    "yes": "Connectar",
+    "no": "Ara no",
+    "connecting": "Connectant...",
+    "hint": "Aquest navegador no permet reconnexió automàtica. En prémer Connectar hauràs de tornar a seleccionar el dispositiu."
+  },
   "errors": {
     "connect": "Error en connectar: {{error}}",
     "connectCadence": "Error en connectar la cadència: {{error}}",
@@ -143,7 +153,20 @@
     "close": "Tanca",
     "target": "Objectiu",
     "actual": "Actual",
-    "remaining": "Restant"
+    "remaining": "Restant",
+    "time": "Temps",
+    "previewBadge": "Vista prèvia",
+    "preview": "Veure vista prèvia de l'entrenament",
+    "previewTitle": "Vista prèvia de l'entrenament",
+    "difficulty": {
+      "easy": "Fàcil",
+      "medium": "Mitjana",
+      "hard": "Difícil"
+    },
+    "filter": {
+      "all": "Tots",
+      "empty": "No hi ha entrenaments amb aquesta dificultat"
+    }
   },
   "config": {
     "title": "Paràmetres de Configuració",

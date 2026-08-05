@@ -105,6 +105,16 @@
     "rollerDisconnected": "Home-trainer déconnecté",
     "cadenceConnected": "Capteur de cadence connecté"
   },
+  "reconnect": {
+    "title": "Reconnecter l'appareil",
+    "message": "Nous avons détecté l'appareil auquel vous vous êtes connecté précédemment :",
+    "trainer": "Home-trainer",
+    "cadence": "Capteur de cadence",
+    "yes": "Connecter",
+    "no": "Pas maintenant",
+    "connecting": "Connexion...",
+    "hint": "Ce navigateur ne prend pas en charge la reconnexion automatique. Lorsque vous appuierez sur Connecter, vous devrez sélectionner à nouveau l'appareil."
+  },
   "errors": {
     "connect": "Erreur de connexion : {{error}}",
     "connectCadence": "Erreur de connexion de la cadence : {{error}}",
@@ -143,7 +153,20 @@
     "close": "Fermer",
     "target": "Objectif",
     "actual": "Actuel",
-    "remaining": "Restant"
+    "remaining": "Restant",
+    "time": "Durée",
+    "previewBadge": "Aperçu",
+    "preview": "Voir l'aperçu de l'entraînement",
+    "previewTitle": "Aperçu de l'entraînement",
+    "difficulty": {
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile"
+    },
+    "filter": {
+      "all": "Tous",
+      "empty": "Aucun entraînement avec cette difficulté"
+    }
   },
   "config": {
     "title": "Paramètres de Configuration",

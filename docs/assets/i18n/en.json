@@ -105,6 +105,16 @@
     "rollerDisconnected": "Roller disconnected",
     "cadenceConnected": "Cadence sensor connected"
   },
+  "reconnect": {
+    "title": "Reconnect device",
+    "message": "We detected the device you connected to previously:",
+    "trainer": "Roller",
+    "cadence": "Cadence sensor",
+    "yes": "Connect",
+    "no": "Not now",
+    "connecting": "Connecting...",
+    "hint": "This browser does not support automatic reconnection. When you press Connect you will need to select the device again."
+  },
   "errors": {
     "connect": "Connection error: {{error}}",
     "connectCadence": "Error connecting cadence: {{error}}",
@@ -143,7 +153,20 @@
     "close": "Close",
     "target": "Target",
     "actual": "Actual",
-    "remaining": "Remaining"
+    "remaining": "Remaining",
+    "time": "Time",
+    "previewBadge": "Preview",
+    "preview": "Preview workout",
+    "previewTitle": "Workout preview",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "filter": {
+      "all": "All",
+      "empty": "No workouts with that difficulty"
+    }
   },
   "config": {
     "title": "Configuration Parameters",
